@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the Excel file with all sheets
-file_path = "C:\\Users\\polan\\Downloads\\Uppliance_ai\\Assigment.xlsx"
+file_path = "C:\\Users\\polan\\Downloads\\Uppliance_ai\\Combined_Workbook.csv"
 user_details = pd.read_excel(file_path, sheet_name="UserDetails.csv")
 cooking_sessions = pd.read_excel(file_path, sheet_name="CookingSessions.csv")
 order_details = pd.read_excel(file_path, sheet_name="OrderDetails.csv")
